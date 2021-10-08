@@ -80,8 +80,8 @@
 % TODO EBSERIES
 % sans serif sections
 \titleformat {\section}{
-    \bfseries \vspace{2pt} \raggedright \large % header section
-}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+    \bfseries \vspace{2pt} \raggedright \large 
+}{}{0em}{}[\color{red} {\titlerule[2pt]} \vspace{-4pt}]
 
 % only for pdflatex
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -136,15 +136,14 @@
 \begin{document}
 
 %----------HEADING----------
-\begin{center}
-    \textbf{\Huge Syed Taha Ali} \\ \vspace{5pt}
-    \small \faPhone* \texttt{647-916-0298} \hspace{1pt} $|$
-    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{taha47ali2001@gmail.com} \hspace{1pt} $|$ 
+\begin{flushleft}
+    \textbf{\Huge Taha} \Huge Ali \\ \vspace{10pt}
+    \small \faEnvelope \hspace{2pt} \texttt{taha47ali2001@gmail.com} \hspace{1pt} $|$ 
     \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/syedtahaa}{SyedTahaA}
  \hspace{1pt} $|$
-    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{Canadian Citizen}
+    \hspace{1pt} \faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/syed-taha-ali-955809222/}{Syed Taha Ali}
     \\ \vspace{-3pt}
-\end{center}
+\end{flushleft}
 
 %-----------Education-----------
 \section{EDUCATION}
@@ -152,28 +151,28 @@
 
     \resumeSubheading
       {University of Toronto}{Aug. 2019 -- Present}
-      {Bachelor of Computer Science Specialist and Math Minor }{}
+      {Bachelor of Computer Science and Minor in Math }{}
       \resumeItemListStart
-        \resumeItem{\textbf{CGPA}: 3.47, \textbf{Average}: 85\%}
+        \resumeItem{\textbf{CGPA}: 3.5/4.0, \textbf{Average}: 85\%}
         \resumeItem{\textbf{Dean's List}}
         \resumeItem{\textbf{Coursework:} Data Structures and Analysis, Software Tools and Systems Programming, Operating Systems, Algorithm Design and Analysis}
-        \resumeItem{\textbf{Course projects:} Huffman Tree File Compressor and Decompressor in Python, File System in C, Transit System Interface in Java, Doodle Jump in Assembly}
+        \resumeItem{\textbf{Course projects:} File Compression/Decompression via Huffman Coding in Python, File System in C, Transit System Interface in Java, Doodle Jump in Assembly}
         
           {\textbf{Awards}} {}
           \resumeItemListStart
-          \resumeItem{University Of Toronto Scholar's Scholarship - \$7,500}
+          \resumeItem{University of Toronto Scholar's Scholarship - \$7,500}
           \resumeItem{University of Toronto Entrance Awards - \$3,000}
           
           \resumeItemListEnd
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Gordon Graydon Secondary School}{Aug. 2015 -- June. 2019}
-      {International Buisness and Technology Program}{Mississauga, CA}
-      \resumeItemListStart
-        \resumeItem{\textbf{Final average:} 97$\%$}
-        \resumeItem{IBT Diploma}
-    \resumeItemListEnd
+%    \resumeSubheading
+%      {Gordon Graydon Secondary School}{Aug. 2015 -- June. 2019}
+%      {International Buisness and Technology Program}{Mississauga, CA}
+%      \resumeItemListStart
+%        \resumeItem{\textbf{Final average:} 97$\%$}
+%        \resumeItem{IBT Diploma}
+%    \resumeItemListEnd
 
 
   \resumeSubHeadingListEnd
@@ -183,9 +182,9 @@
 \section{SKILLS}
  \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-     \textbf{Languages} {: Python, Java, C, MIPS Assembly, Racket, Haskell, HTML/CSS, Urdu}\vspace{2pt} \\
+     \textbf{Languages} {: Python, Java, C, MIPS Assembly, Racket, Haskell, HTML/CSS, Latex}\vspace{2pt} \\
      \textbf{Developer Tools}     {: Git, Pip, Anaconda, Visual Studio, Pycharm, Jupyter Notebook, DrRacket, IDLE, MARS Runtime}
-     \textbf{Frameworks and Libraries}     {: Pandas, Numpy, Matplotlib, Flask, Voila, Heroku, Tensorflow, Sklearn, GPT-3, Codex}
+     \textbf{Frameworks and Libraries}     {: Pandas, Matplotlib, Flask, Voila, Heroku, Tensorflow, Sklearn, GPT-3, Codex}
     }}
  \end{itemize}
 
@@ -194,9 +193,9 @@
 \section{DEVELOPMENT EXPERIENCE}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Path Finding on Map Visualizer}} {Python}
+          {\href{https://github.com/SyedTahaA/PathFinderOnMap}{\textbf{Path Finding on Map Visualizer}}} {}
           \resumeItemListStart
-          \resumeItem{Designed a path finding algorithm visualizer that maps paths on GPS like map}
+          \resumeItem{Designed a path finding algorithm visualizer that maps paths using a variety of algorithms on GPS like map}
           \resumeItem{Allows users to compare efficiency and results of the different algorithms}
             \resumeItem{Created using python interface libraries like ipyleaflet and ipywidget}
             \resumeItem{Deployed as a web app using Voila and Jupyter Notebook}
@@ -204,14 +203,14 @@
           \resumeItemListEnd
           
         \resumeProjectHeading
-          {\textbf{Sports Data Visualizations}} {Python}
+          {\href{https://github.com/stalhaali/AnimatedDataVisualizer}{\textbf{Sports Data Visualizations}}} {}
           \resumeItemListStart
             \resumeItem{Designed visualizations of sports statistics to analyze and compare players and teams}
             \resumeItem{Matplotlib, Pandas, BS4 to collect data and create visualizations, and graphics on Camtasia Video Editor}
             \resumeItem{Shared and Monetized visualizations on Social Media; accumulated over \textbf{2.5+ Million Views} on {\href{https://www.youtube.com/c/InternetReacts}{\myuline {YouTube}}} ; accumulated over \textbf{5+ million impressions} on {\href{https://twitter.com/ReactsInternet}{\myuline {Twitter}}}}
-            \resumeItem{Partnered with popular media brands; \href{https://www.instagram.com/sportbible/?hl=en}{SportsBible} and \href{https://www.facebook.com/sporf/}{Sporf}}
+            \resumeItem{Partnered with popular media brands; \href{https://www.instagram.com/sportbible/?hl=en}{\myuline{SportsBible}} and \href{https://www.facebook.com/sporf/}{\myuline{Sporf}}}
             \resumeItem{Created a FLASK web app with a partner to allow fans to create similar visualizations}
-            \resumeItem{Highlights: \href{https://www.youtube.com/watch?v=7059fTnbaYg}{EPL Goals Comparison at the same age}, \href{https://www.youtube.com/watch?v=V2ngpANlJ30}{Liverpool Season Review}, \href{https://www.youtube.com/watch?v=dYXhF1qR8Q4}{NBA Points per Game Comparison}}
+            \resumeItem{Highlights: \href{https://www.youtube.com/watch?v=7059fTnbaYg}{\myuline{EPL Goals Comparison at the same age}}, \href{https://www.youtube.com/watch?v=V2ngpANlJ30}{\myuline{Liverpool Season Review}}, \href{https://www.youtube.com/watch?v=dYXhF1qR8Q4}{\myuline{NBA Points per Game Comparison}}}
           \resumeItemListEnd
           
     \resumeSubHeadingListEnd
